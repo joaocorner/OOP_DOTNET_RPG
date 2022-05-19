@@ -1,8 +1,8 @@
 namespace rpg.src.Entities
 {
-  public class Knight : Hero
+  public class BlackWizard : Wizard
   {
-    public Knight(string Name, int Level, string HeroType, int HP, int MP) : base(Name, Level, HeroType, HP, MP)
+    public BlackWizard(string Name, int Level, string HeroType, int HP, int MP) : base(Name, Level, HeroType, HP, MP)
     {
       this.Name = Name;
       this.Level = Level;
