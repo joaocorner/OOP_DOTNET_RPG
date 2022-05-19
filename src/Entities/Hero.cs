@@ -1,6 +1,6 @@
 namespace rpg.src.Entities
 {
-  public class Hero
+  public abstract class Hero
   {
     public Hero(string Name, int Level, string HeroType)
     {
@@ -21,7 +21,7 @@ namespace rpg.src.Entities
 
     public virtual string Attack()
     {
-      return this.Name + " atacou com a sua espada.";
+      return this.Name + " atacou com a sua espada. ";
     }
   }
 }

@@ -2,8 +2,10 @@
 
 using rpg.src.Entities;
 
-Hero arus = new Hero("Arus", 23, "Knight");
+Knight arus = new Knight("Arus", 23, "Knight");
 Wizard wizard = new Wizard("Jenica", 23, "White Wizard");
 
-Console.Write(arus.Attack());
-Console.Write(wizard.Attack());
+Console.WriteLine(arus.Attack());
+Console.WriteLine(wizard.Attack());
+Console.WriteLine(wizard.Attack(8));
+Console.WriteLine(wizard.Attack(2));
